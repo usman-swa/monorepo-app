@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "cleanup": "./cleanup.sh",
+    "build:all": "lerna exec yarn build"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  }
+}

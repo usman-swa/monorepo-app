@@ -1,0 +1,8 @@
+{
+    "files": [],
+    "references": [
+        { "path": "apple" },
+        { "path": "banana" },
+        { "path": "grocery" }
+    ]
+}

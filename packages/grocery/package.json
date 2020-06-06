@@ -1,0 +1,18 @@
+{
+  "name": "grocery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apple": "^1.0.0",
+    "banana": "^1.0.0",
+    "sillyname": "0.0.3"
+  }
+}
