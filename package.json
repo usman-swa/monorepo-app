@@ -6,7 +6,9 @@
   ],
   "scripts": {
     "cleanup": "./cleanup.sh",
-    "build:all": "lerna exec yarn build"
+    "build:all": "lerna exec yarn build",
+    "lint": "lerna run lint --stream",
+    "start": "lerna run start --stream"
   },
   "devDependencies": {
     "lerna": "^3.22.0"
