@@ -1,44 +1,36 @@
 {
-  "name": "front",
-  "version": "0.1.0",
+  "name": "photo-gallery",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "@types/jest": "^26.0.0",
+    "@types/react-infinite-scroller": "^1.2.1",
+    "@types/react-photoswipe": "^1.3.0",
+    "axios": "^0.19.2",
+    "dom-helpers": "^5.1.4",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "nock": "^12.0.3",
+    "path": "^0.12.7",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-infinite-scroller": "^1.2.4",
+    "react-photoswipe": "^1.3.0",
+    "react-scripts": "3.4.1",
+    "typescript": "^3.9.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "env": {
-      "browser": true,
-      "es2020": true
-    },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 11,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react",
-        "@typescript-eslint"
-    ],
-    "rules": {
-    }
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -53,14 +45,6 @@
     ]
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.2.0",
-    "@typescript-eslint/parser": "^3.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^2.5.1"
-  },
-  "proxy": "http://localhost:3000"
+    "react-test-renderer": "16.8.6"
+  }
 }
